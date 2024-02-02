@@ -1,0 +1,22 @@
+{
+  "name": "calendar_bot",
+  "version": "1.0.0",
+  "description": "calendar bot for users",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roki4/calendar_bot.git"
+  },
+  "author": "Mark Gavrilov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roki4/calendar_bot/issues"
+  },
+  "homepage": "https://github.com/roki4/calendar_bot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0"
+  }
+}
