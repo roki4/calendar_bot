@@ -15,6 +15,4 @@ const url = `https://date.nager.at/api/v3/publicholidays/${year}/RU`;
         for (let i = 0; i < data.length; i++) {
           bot.sendMessage(helper.getChatId(msg), `Дата: ${data[i].date}\nПраздник: ${data[i].localName}`);
         }
-
-        // console.log(data);
       });
