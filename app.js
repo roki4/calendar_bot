@@ -33,7 +33,7 @@ bot.on("message", (msg) => {
 
         for (let i = 0; i < data.length; i++) {
           bot.sendMessage(
-            helper.getChatId(msg),
+            helper.getChatId( msg ),
             `Праздники в этом году:\nДата: ${data[i].date}\nПраздник: ${data[i].localName}`
           );
         }
